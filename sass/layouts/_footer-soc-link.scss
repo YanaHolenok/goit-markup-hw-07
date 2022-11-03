@@ -2,7 +2,11 @@
     fill: var(--third-color);
 }
 
-
+.link-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
 
 .footer-soc-link {
     width: 44px;

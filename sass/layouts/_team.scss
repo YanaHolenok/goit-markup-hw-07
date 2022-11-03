@@ -7,10 +7,11 @@
     gap: 30px;
 }
 .team__title{
-    font-style: 36px;
-    line-height: calc(42 / 36);
-    text-align: center;
-    color: var(--second-color);
+      font-weight: 700;
+      line-height: calc(42 / 36);
+      text-align: center;
+      
+      color: var(--second-color)
 }
 
 .team-title--resizing {
