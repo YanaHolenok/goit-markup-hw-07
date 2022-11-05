@@ -1,7 +1,11 @@
 .footer-content {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
+
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        
+        }
 }
 
 .footer {
@@ -31,7 +35,10 @@
 }
 
 .footer-address-box {
-    width: 230px;
+
+    @media screen and (min-width: 1200px) {
+        width: 230px;
+        }
 }
 
 .footer-address {

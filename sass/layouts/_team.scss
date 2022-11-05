@@ -1,21 +1,23 @@
 .team {
     background-color: #f5f4fa;}
+    
 
 
 .cards {
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
 }
-.team__title{
-      font-weight: 700;
-      line-height: calc(42 / 36);
-      text-align: center;
-      
-      color: var(--second-color)
-}
+.cards__item{
+  width: 100%;
 
-.team-title--resizing {
-    margin-bottom: 50px;
+@media screen and (min-width: 768px) {
+    width: calc((100% - 30px) / 2);
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: calc((100% - 90px) / 4);
+  }
 }
 
 .cards__description {
@@ -83,13 +85,7 @@
 .about {
   padding-top: 0;
 }
-.section-title {
-  margin-bottom: 50px;
-  font-size: 36px;
-  line-height: calc(42 / 36);
-  text-align: center;
-  color: var(--second-color);
-}
+
 .about-list {
   display: flex;
   gap: 30px;
